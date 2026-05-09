@@ -857,7 +857,7 @@ h1 {
        background-image:
            linear-gradient(rgba(255,192,203,0.25),
            rgba(255,192,203,0.25)),
-           url('./images/pattern-bg.jpg');
+           url('./Images/pattern-bg.jpg');
        background-size: 100% 100%, auto;
        background-position: 0 0, 0 0;
        background-repeat: no-repeat, repeat;
