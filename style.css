@@ -1,6 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Coiny&family=Titan+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nerko+One&family=Sriracha&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -88,7 +85,8 @@ body {
     justify-content: center;
     width: 100%;
     transform: scale(0);
-    animation: scaleCricle 6s 16s forwards ease-in-out;
+    /* Pop in shortly after title + hat (was 16s delay + 6s — felt “stuck”) */
+    animation: scaleCricle 1.2s 7.5s forwards ease-in-out;
 }
 #btn__letter{
     position: relative;
